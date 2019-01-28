@@ -16,13 +16,13 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === 'fراتب'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === 'fمبلغ'){
         message.channel.send('#credits')
     }
 });
@@ -34,19 +34,19 @@ client.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === 'fراتب'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === 'fمبلغ'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
+    if(message.content === 'fريب'){
         message.channel.send('#credits')
     }
 });
@@ -54,7 +54,7 @@ client2.on('message', message => {
 
 
 client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === 'fspam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -68,7 +68,7 @@ if (message.content === '!spam') {
 });
 
 client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === 'fspam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -82,7 +82,7 @@ if (message.content === '!spam') {
 });
 
 client.on('message', message => {
-        var prefix = "&";  // البريفكس
+        var prefix = "f5";  // البريفكس
         if (message.author.bot) return;
         if (!message.content.startsWith(prefix)) return;
       
@@ -101,7 +101,7 @@ client.on('message', message => {
       });
 
 client2.on('message', message => {
-        var prefix = "+";  // البريفكس
+        var prefix = "f6";  // البريفكس
         if (message.author.bot) return;
         if (!message.content.startsWith(prefix)) return;
       
