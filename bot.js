@@ -82,7 +82,7 @@ if (message.content === 'fspam') {
 });
 
 client.on('message', message => {
-        var prefix = "f5";  // البريفكس
+        var prefix = "%";  // البريفكس
         if (message.author.bot) return;
         if (!message.content.startsWith(prefix)) return;
       
